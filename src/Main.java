@@ -7,15 +7,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         String[][] maze = getMaze("src/test");
-
+        Maze prt1 = new Maze(maze);
         for (String[] strings : maze) {
             for (int j = 0; j < maze[0].length; j++) {
                 System.out.print(strings[j] + " ");
             }
             System.out.println();
         }
-
-
     }
 
     public static String[][] getMaze(String fileName) {
