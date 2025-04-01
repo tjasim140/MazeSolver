@@ -15,7 +15,6 @@ public class Main {
             System.out.println();
         }
         prt1.move();
-        System.out.println(prt1.getPathTaken());
     }
 
     public static String[][] getMaze(String fileName) {
